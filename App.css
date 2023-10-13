@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app{
+
+}
+.header{
+  background-color: rgb(26, 26, 140);
+  padding: 10px;
+  text-align: center;
+  
+}
+.main{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  flex-wrap: wrap;
+  padding: 8px;
+}
+.content{
+  cursor: pointer;
+  font-size: bold;
+  background-color: grey;
+  padding: 3px;
+  width: 22%;
+  margin-top: 5px;
+
+}
+.content img{
+  height: 220px;
+  width: 100%;
+  transition: transform .6s ease;
+}
+.content img:hover{
+transform: scale(1.1);
+}
